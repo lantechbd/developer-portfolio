@@ -7,12 +7,18 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+    padding-right: 80px;
+}
+
 .kaws {
     color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -38,4 +44,10 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
